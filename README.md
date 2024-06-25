@@ -19,6 +19,7 @@ monitoring, and other applications requiring timely processing of information.
 - **Event-Driven**: Data processing is triggered by the arrival of new data.
 - **Examples**: Real-time analytics, financial market data feeds, sensor data, live video/audio feeds.
 
+**Processing steps:**
 1. **Data Sources**: Data can come from various sources such as sensors, log files, social media feeds, or user interactions.
 2. **Data Processing**: This involves transforming, filtering, and analyzing the data in real-time.
 3. **Data Storage**: Processed data can be stored in databases, data lakes, or other storage systems.
