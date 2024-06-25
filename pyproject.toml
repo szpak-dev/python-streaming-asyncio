@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-streaming-asyncio"
+version = "0.1.0"
+description = ""
+authors = ["Tomasz Szpak <tomszp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+asyncclick = "^8.1.7.2"
+fastapi = "^0.111.0"
+yappi = "^1.6.0"
+pyprof2html = "^0.3.2"
+snakeviz = "^2.2.0"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP Streams with FastAPI</title>
+</head>
+<body>
+    <h1>HTTP Stream with Server-Sent Events</h1>
+    <div id="data"></div>
+    <script>
+        const eventSource = new EventSource("/events");
+        eventSource.onmessage = function(event) {
+            document.getElementById("data").innerText = event.data;
+        };
+    </script>
+</body>
+</html>
